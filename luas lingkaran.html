@@ -1,0 +1,53 @@
+<html>
+    <head>
+
+        <script type="text/javascript">
+            function luas(){
+            jari = document.getElementById("jari").value;
+            Luas = 3.14*jari * jari;
+            document.getElementById("luas").value =  Luas;
+            }
+        </script>
+            
+    </head>
+    <style>
+        body {
+            background-image : url("image.png") , url("bunga.jpeg");
+            background-color:#767re3;
+        }
+    </style>
+    <title>pendaftaran</title>
+</head>
+
+<body> 
+    
+    <h1>LUAS LINGKARAN</h1>
+    <hr widht="20%" align="left">
+    <p>isilah kolom berikut</p>
+
+    <table border="2" style="center; color:#1a3bf6">
+    <body>
+    
+    <tr>
+        <td colspan="2">Luas Persegi Panjang</td>
+    </tr>
+
+    <tr>
+        <td>jari</td>
+        <td><input type="text" id="jari" name="jari"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><input type="button" id="hitung" name="hitung" value="Hitung" onclick="luas()";></td>
+    </tr>
+
+    <tr>
+        <td>Luas</td>
+        <td><input type="text" id="luas" name="luas"></td>
+    </tr>
+</table>
+</div>
+
+</body>
+
+</html>
